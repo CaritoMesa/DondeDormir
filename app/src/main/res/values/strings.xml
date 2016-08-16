@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DondeDormir</string>
+    <string name="ing_ciudad">Ingrese ciudad</string>
+    <string name="ing_personas">Ingrese cantidad de personas</string>
+    <string name="boton_buscar">Buscar</string>
+    <string name="boton_cuenta">Cuenta</string>
+    <string name="boton_llamar">Llamar</string>
+</resources>
