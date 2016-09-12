@@ -1,35 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/lights"
+    android:weightSum="1">
 
     <EditText android:id="@+id/ing_ciudad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/ing_ciudad" />
+        android:hint="@string/ing_ciudad"
+        android:autoText="false"
+        android:textColorHint="#ffffff" />
 
     <EditText android:id="@+id/ing_personas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/ing_personas" />
+        android:inputType="number"
+        android:hint="@string/ing_personas"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton_buscar"
         android:onClick="buscar"
-        android:clickable="false" />
+        android:clickable="false"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"></LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/boton_cuenta"
-        android:onClick="cuenta"/>
+        android:onClick="cuenta"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

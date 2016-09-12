@@ -4,6 +4,16 @@
     <string name="ing_ciudad">Ingrese ciudad</string>
     <string name="ing_personas">Ingrese cantidad de personas</string>
     <string name="boton_buscar">Buscar</string>
-    <string name="boton_cuenta">Cuenta</string>
+    <string name="boton_cuenta">Iniciar Sesión</string>
+    <string name="boton_enviar">Enviar</string>
+    <string name="boton_web">web</string>
     <string name="boton_llamar">Llamar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_settings">Configuración</string>
+    <string name="username">Usuario:</string>
+    <string name="password_textview">Contraseña:</string>
+    <string name="submit">Enviar</string>
+    <string name="register">Registrarse</string>
+    <string name="login">Iniciar sesión</string>
+    @string/action_search
 </resources>

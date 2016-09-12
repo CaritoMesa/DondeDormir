@@ -10,4 +10,13 @@
     tools:context="cl.caritomesa.dondedormir.ResultadoBusquedaActivity"
     android:id="@+id/resultado_busqueda">
 
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
 </RelativeLayout>
+
